@@ -1,6 +1,6 @@
 # shadcn-ui-components-update-checker
 
-Check for updates to [shadcn/ui](https://ui.shadcn.com) components
+Check for updates to [shadcn/ui](https://ui.shadcn.com) components.
 
 ## Usage
 
@@ -21,7 +21,7 @@ $ bash shadcn-ui-components-update-checker.sh ${YOUR_REACT_PROJECT_DIR}
 
 ```bash
 THIS_APP_PATH="path/to"
-echo "alias shadcn-ui-components-update-checker='bash ${THIS_APP_PATH}/shadcn-ui-components-update-checker.sh \"\${1:-.}\"'" >> ~/.zshrc
+echo "alias shadcn-ui-components-update-checker='bash -c '\''bash ${THIS_APP_PATH}/shadcn-ui-components-update-checker.sh \"\${1:-.}\"'\'' _'" >> ~/.zshrc
 source ~/.zshrc
 ```
 
@@ -29,7 +29,7 @@ source ~/.zshrc
 
 ```bash
 THIS_APP_PATH="path/to"
-echo "alias shadcn-ui-components-update-checker='bash ${THIS_APP_PATH}/shadcn-ui-components-update-checker.sh \"\${1:-.}\"'" >> ~/.bashrc
+echo "alias shadcn-ui-components-update-checker='bash -c '\''bash ${THIS_APP_PATH}/shadcn-ui-components-update-checker.sh \"\${1:-.}\"'\'' _'" >> ~/.bashrc
 source ~/.bashrc
 ```
 
