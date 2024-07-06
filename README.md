@@ -1,6 +1,6 @@
 # shadcn-ui-components-update-checker
 
-Check for updates to [shadcn/ui](https://ui.shadcn.com) components
+Check for updates to [shadcn/ui](https://ui.shadcn.com) components.
 
 ## Usage
 
