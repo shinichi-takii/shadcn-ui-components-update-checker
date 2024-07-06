@@ -9,7 +9,7 @@ if [ $# -eq 0 ]; then
 fi
 
 # Change to the specified directory
-echo "$1"
+echo "📂 $1"
 cd "$1" || { echo "Cannot change to specified directory: $1"; exit 1; }
 
 
